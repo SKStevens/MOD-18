@@ -1,0 +1,37 @@
+.grid 
+{
+    background-color: red;
+}
+body
+{
+margin: 0;
+min-height: 100vh;
+min-height: 100dvh;
+display: grid;
+grid-template-rows: auto 1fr auto;
+}
+
+.bcgimg
+{
+  background-color: rgb(220, 220, 220);
+  background-image: url(../IMG/bcg.png);  
+}
+/*
+.Header
+{
+display: grid;
+grid-template-areas: "stack";
+place-items: center;
+}
+
+.Header > *
+{
+grid-template-areas: "stack";
+}
+*/
+
+.logo
+{
+
+}
+
